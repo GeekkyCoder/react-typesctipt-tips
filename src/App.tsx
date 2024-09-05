@@ -1,8 +1,10 @@
 import './App.css'
 import ChildrenPropExample from './children_props/children_props'
+import ImageUploader from './forward-ref/forward-ref'
 import Memo from './memo/memo'
 import AdminPanel from './read-only/read_only'
 import ToArrayExample from './to_array/to_array'
+import Page from './use_imperative_handle/page'
 
 function App() {
 
@@ -11,8 +13,10 @@ function App() {
     {/* <AdminPanel data='faraz' metrics={["hello", "hi", "how are you"]}/> */}
     {/* <ToArrayExample data={["one", "two","three"]}/> */}
     {/* <Memo/> */}
-    <ChildrenPropExample/>
-    </>
+    {/* <ChildrenPropExample/> */}
+    {/* <ImageUploader/> */}
+    <Page/>
+      </>
   )
 }
 
