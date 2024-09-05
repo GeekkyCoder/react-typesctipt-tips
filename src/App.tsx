@@ -4,6 +4,7 @@ import ImageUploader from './forward-ref/forward-ref'
 import Memo from './memo/memo'
 import AdminPanel from './read-only/read_only'
 import ToArrayExample from './to_array/to_array'
+import MainArtificialIntelligence from './use-previous/use_previous'
 import Page from './use_imperative_handle/page'
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     {/* <Memo/> */}
     {/* <ChildrenPropExample/> */}
     {/* <ImageUploader/> */}
-    <Page/>
+    {/* <Page/> */}
+    <MainArtificialIntelligence/>
       </>
   )
 }
